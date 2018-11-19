@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+
+"""Foobar.py: Description of what foobar does.
+
+__author__ = "Fu Linke"
+__pkuid__  = "1800011782
+__email__  = "1800011782@pku.edu.cn
+"""
+
 import turtle
 #to make the bg black like the universe
 turtle.bgcolor('black')
