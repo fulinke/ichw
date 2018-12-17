@@ -8,7 +8,7 @@ __email__  = "1800011782@pku.edu.cn
 
 #定义一个铺砖函数
 def ocp(a, b, m, n, gd, method, ans, alternative): #method代表铺法，alternative是代表地砖坐标的中间体
-	if a*b%(m/n)!=0:
+	if a*b%(m*n)!=0:
 		return "no way, bro"
 	else:
 		count = 0
